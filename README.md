@@ -49,12 +49,13 @@ This is enforced using role-based authorization and ownership checks.
 ### 🪪 Authentication
 
 After successful login, a JWT token is returned.
-Example:
-{
-"email": "admin@gmail.com",
-"role": "ADMIN",
-"token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNzU2NzcsImV4cCI6MTc3NTQxMTY3N30.qcJmdsNdaxOFeFJNk_1ci3kIlHyBKls34YCDoXKgFVmz0OknMehppiB2EsZ-4-DF",
-"type": "Bearer"
+Example:<br/>
+
+{<br/>
+"email": "admin@gmail.com",<br/>
+"role": "ADMIN",<br/>
+"token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNzU2NzcsImV4cCI6MTc3NTQxMTY3N30.qcJmdsNdaxOFeFJNk_1ci3kIlHyBKls34YCDoXKgFVmz0OknMehppiB2EsZ-4-DF",<br/>
+"type": "Bearer"<br/>
 }
 
 ---
