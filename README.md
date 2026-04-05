@@ -11,7 +11,7 @@ pagination, and soft delete functionality.
 If the database is completely empty(First time using the application) a default admin will be automatically added to the database, 
 so this admin is authorised to create other admin, analyst and viewers.
 
-Default admin credentials
+Default admin credentials <br/>
 **email: admin@gmail.com <br/>
 password: password**
 
