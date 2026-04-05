@@ -1,0 +1,5 @@
+### GET request to example server
+GET http://localhost:8080/users
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjY4ODQsImV4cCI6MTc3NTQwMjg4NH0.U1wv1S1oShPCbN46fyXiQoiBKkDOoFHUXHrMMgz4pHF_SY5gY0pRX0Znx_RZBO97
+
+###

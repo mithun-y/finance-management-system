@@ -1,0 +1,7 @@
+### Soft Delete a record
+DELETE http://localhost:8080/records/9
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3
+
+### Restore a record
+GET http://localhost:8080/records/12/restore
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjg4NTEsImV4cCI6MTc3NTQwNDg1MX0.Y-vf3IB2XS2QijUw0nwjW493aO6VwTSOsd2Pv4L7Vgtr-w0lAFpIMjDq8EN7R505

@@ -1,0 +1,11 @@
+### patch request to update status
+PATCH http://localhost:8080/users/4/status
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhbmFAZ21haWwuY29tIiwicm9sZSI6IkFOQUxZU1QiLCJpYXQiOjE3NzUzMTQyOTcsImV4cCI6MTc3NTM1MDI5N30.sEhOwE-Uls-MXKtBWs93e0j5KPFQWXxE1WsYSQqdOcJt_UTisRVfRGgCVnheuzRa
+
+
+{
+  "status": "inactive"
+}
+
+###

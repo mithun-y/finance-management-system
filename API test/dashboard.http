@@ -1,0 +1,15 @@
+### GET request to get Financial record summary
+GET http://localhost:8080/dashboard/summary
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3
+
+### GET request to get data by category
+GET http://localhost:8080/dashboard/category
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3
+
+### GET request to get recent financial records
+GET http://localhost:8080/dashboard/recent
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJtQGdtYWlsLmNvbSIsInJvbGUiOiJWSUVXRVIiLCJpYXQiOjE3NzUzNjA5MDMsImV4cCI6MTc3NTM5NjkwM30.Yeh84Qu_NQh_QY78tO1kGdJzeNK6npmMNOl98zZ3owPEeTQ1y6BiXN4fGftyPIqz
+
+###GET request to get overview on montly expense and income
+GET http://localhost:8080/dashboard/monthly-trends
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJtQGdtYWlsLmNvbSIsInJvbGUiOiJWSUVXRVIiLCJpYXQiOjE3NzUzNjA5MDMsImV4cCI6MTc3NTM5NjkwM30.Yeh84Qu_NQh_QY78tO1kGdJzeNK6npmMNOl98zZ3owPEeTQ1y6BiXN4fGftyPIqz

@@ -1,0 +1,23 @@
+### GET request to get the list of records
+GET http://localhost:8080/records/all
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3
+
+### GET request to get the records(Pagination implemented)
+GET http://localhost:8080/records?page=2&size=5&sortBy=amount&sortDir=asc
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjg4NTEsImV4cCI6MTc3NTQwNDg1MX0.Y-vf3IB2XS2QijUw0nwjW493aO6VwTSOsd2Pv4L7Vgtr-w0lAFpIMjDq8EN7R505
+
+### GET request to get a record
+GET http://localhost:8080/records/12
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjg4NTEsImV4cCI6MTc3NTQwNDg1MX0.Y-vf3IB2XS2QijUw0nwjW493aO6VwTSOsd2Pv4L7Vgtr-w0lAFpIMjDq8EN7R505
+
+### GET request to get the list of records filter by type -> INCOME/EXPENSE
+GET http://localhost:8080/records/type?type=income
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3
+
+### GET request to get the list of records filter by category
+GET http://localhost:8080/records/category?category=Freelance
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3
+
+### GET request to get the list of records filter by Date Range
+GET http://localhost:8080/records/date-range?start=2026-01-01&end=2026-04-08
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjk3MDUsImV4cCI6MTc3NTQwNTcwNX0.ILzzU5FKP3OYv4ufTjb7doOR5gkcnN0OkpFi0oEhpjUUdlKkRdCpN5RVCHgY6wE3

@@ -1,0 +1,13 @@
+### PUT updating a user
+PUT http://localhost:8080/users/2/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzMDEwNjIsImV4cCI6MTc3NTMzNzA2Mn0.DvY3gyFOshzJuohfo55veVXkC-3K027dQY-0hLfPFAEeirjTvG5XwSLqiwRJJ_is
+
+{
+  "name": "mithun",
+  "email": "mithun@gmail.com",
+  "role": "viewer",
+  "status": "active"
+}
+
+###

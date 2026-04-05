@@ -1,0 +1,14 @@
+### POST request to create a new user
+POST http://localhost:8080/users
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjA4NTksImV4cCI6MTc3NTM5Njg1OX0.ouy3tQ_OnyIQz1MFkVLdlRzW1EIul0t9UC2oulCkIXJPFYaawW1bzrHJEHpISctn
+
+{
+  "name": "mith",
+  "email": "m@gmail.com",
+  "password": "password",
+  "role": "viewer",
+  "status": "active"
+}
+
+###

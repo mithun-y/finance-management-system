@@ -1,0 +1,13 @@
+### POST request to create a new record
+POST http://localhost:8080/records
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzUzNjA4NTksImV4cCI6MTc3NTM5Njg1OX0.ouy3tQ_OnyIQz1MFkVLdlRzW1EIul0t9UC2oulCkIXJPFYaawW1bzrHJEHpISctn
+
+{
+  "amount": 300,
+  "type": "expense",
+  "category": "other",
+  "date": "2026-04-03",
+  "notes": "other"
+}
+###
